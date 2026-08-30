@@ -14,6 +14,7 @@ class Solution {
             List<Integer> row = new LinkedList<>();
           
             for(int j=0; j<=i;j++)
+            
             row.add(nCr(i,j));
             arr.add(row);
         }
